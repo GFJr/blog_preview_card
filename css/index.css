@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Figtree");
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: "Figtree", "sans-serif";
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    min-height: 100svh;
+    justify-content: center;
+    padding:1rem;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 20rem;
+    padding: 1rem;
+    line-height:1.6;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 1); /* Adds a shadow */
+}
+
+
+.card img {
+    display: block;
+    border-radius: 10px;
+}
+
+.learningtag {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    display: inline-flex; /* Makes the flex container size to the content */
+    max-width: max-content; /* Ensures it shrinks to the size of the widest child */
+    padding: 0.2rem;
+
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+
+
+
+
+
+
